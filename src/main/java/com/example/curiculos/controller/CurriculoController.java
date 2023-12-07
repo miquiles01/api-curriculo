@@ -10,7 +10,7 @@ import com.example.curiculos.service.CurriculoService;
 import java.util.List;
 
 @RestController
-@RequestMapping("curriculo")
+@RequestMapping("api/curriculos")
 public class CurriculoController {
 
     @Autowired
